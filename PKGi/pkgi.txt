@@ -1,0 +1,11 @@
+url_games http://nopaystation.com/tsv/PS3_GAMES.tsv
+url_dlcs http://nopaystation.com/tsv/PS3_DLCS.tsv
+url_themes http://nopaystation.com/tsv/PS3_THEMES.tsv
+url_avatars http://nopaystation.com/tsv/PS3_AVATARS.tsv
+url_demos http://nopaystation.com/tsv/PS3_DEMOS.tsv
+content 0
+sort name
+order asc
+filter ASA,EUR,JPN,USA
+dl_mode_background 1
+no_music 1
