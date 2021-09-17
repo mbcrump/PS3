@@ -1,0 +1,37 @@
+C:\Users\Pistismonkis\Documents>python PS3_Syscon(Mullion_SW)script.py COM6 CXR
+> auth
+Auth successful
+> EEP GET 3961 01
+00000000 FF
+> EEP SET 3961 01 00
+00000000
+> EEP GET 3961 01
+00000000 00
+> EXIT
+
+C:\Users\Pistismonkis\Documents>python PS3_Syscon(Mullion_SW)script.py COM6 CXRF
+
+> AUTH
+scopen response invalid
+> AUTH
+Auth successful
+> eepcsum
+eepcsum
+Addr:0x000032fe should be 0x528c
+Addr:0x000034fe should be 0x7115
+sum:0x0100
+Addr:0x000039fe should be 0x0038
+Addr:0x00003dfe should be 0x00ff
+Addr:0x00003ffe should be 0x00ff
+> w 39fe 38 00
+w 39fe 38 00
+w complete!
+[mullion]$
+> eepcsum
+eepcsum
+Addr:0x000032fe should be 0x528c
+Addr:0x000034fe should be 0x7115
+Addr:0x000039fe should be 0x0038
+Addr:0x00003dfe should be 0x00ff
+Addr:0x00003ffe should be 0x00ff
+> exit
